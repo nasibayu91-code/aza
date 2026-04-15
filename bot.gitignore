@@ -1,3 +1,8 @@
+.env
+*.pyc
+__pycache__/
+temp_*.jpg
+
 TELEGRAM_BOT_TOKEN=8394604153:AAG5ZtBnSmGWNJDhHN5WjCTkVy1YoWb85Y8
 
 # Бесплатные API ключи (получить за 1 минуту)
