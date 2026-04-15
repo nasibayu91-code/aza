@@ -1,0 +1,10 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = "pip install -r requirements.txt"
+
+[deploy]
+startCommand = "python free_bot.py"
+restartPolicyType = "ALWAYS"
+
+[service]
+type = "worker"
